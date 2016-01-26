@@ -1,4 +1,4 @@
-cordova.define("cordova-plugin-sslcertificatechecker.SSLCertificateChecker", function(require, exports, module) { "use strict";
+ "use strict";
   var exec = require('cordova/exec');
 
   function SSLCertificateChecker() {
@@ -57,4 +57,4 @@ cordova.define("cordova-plugin-sslcertificatechecker.SSLCertificateChecker", fun
   var sslCertificateChecker = new SSLCertificateChecker();
   module.exports = sslCertificateChecker;
 
-});
+
